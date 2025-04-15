@@ -111,7 +111,28 @@ const HadithLearn = () => {
       </div>
 
       {!query ? (
+      
         <div className="intro-content">
+
+<h1>Preservation of the Quran and Hadith</h1>
+          <p>
+            The Quran has been meticulously preserved through a strong oral tradition and early standardization. 
+            In contrast, Hadiths were transmitted via chains of narrators and compiled later, meaning even the 
+            highly trusted “sahih” collections face challenges due to human error and historical context.
+          </p>
+          <h3>Quran Preservation</h3>
+          <ul>
+            <li>Memorized and recited over 23 years.</li>
+            <li>Standardized in writing to ensure uniformity.</li>
+            <li>Maintained via rigorous oral and manuscript traditions.</li>
+          </ul>
+          <h3>Hadith Preservation &amp; Limitations</h3>
+          <ul>
+            <li>Based on isnad (chains of narration) and biographical critique.</li>
+            <li>Sahih collections (e.g., Bukhari, Muslim) are highly trusted.</li>
+            <li>Human errors, memory lapses, and political or sectarian influences have affected transmission.</li>
+            <li>Even “sahih” hadiths are subject to modern scholarly re-evaluation.</li>
+          </ul>
           <h1>Hadith Learning</h1>
           <p>
             Explore the teachings of Prophet Muhammad (peace be upon him) through authentic Hadith collections.
@@ -130,14 +151,13 @@ const HadithLearn = () => {
             <li><strong>Musnad Ahmad</strong> - A comprehensive collection that includes many lesser-known narrations.</li>
             <li><strong>Riyad Us-Salihin</strong> - A selection of Hadith that emphasizes moral guidance and ethical living.</li>
             <li><strong>Al-Adab al-Mufrad</strong> - A collection by Imam Bukhari focused on the etiquettes and morality in daily life.</li>
-<li><strong>Bulugh al-Maram</strong> - A collection of Hadith primarily dealing with fiqh (Islamic jurisprudence), compiled by Ibn Hajar al-Asqalani.</li>
-<li><strong>Mishkat al-Masabih</strong> - A well-known compilation that gathers various Hadith covering various topics, organized by al-Tabrizi.</li>
-<li><strong>Shama'il Muhammadiyah</strong> - A work that describes the physical attributes and noble character of Prophet Muhammad (PBUH), compiled by Imam at-Tirmidhi.</li>
-<li><strong>Nawawi 40</strong> - A collection of 40 Hadith compiled by Imam Nawawi, focusing on key principles of Islamic practice and ethics, commonly regarded as essential for understanding the faith.</li>
-<li><strong>Qudsi 40</strong> - A compilation of 40 Hadith Qudsi, in which the Prophet Muhammad (PBUH) conveys words attributed directly to Allah, focusing on divine guidance and the relationship between God and humanity.</li>
-<li><strong>Shah Waliullah 40</strong> - A set of 40 Hadith compiled by Shah Waliullah, emphasizing Islamic teachings and ethical principles, with a focus on practical aspects of faith and spirituality.</li>
-<li><strong>Sunan ad-Darimi</strong> - Sunan ad-Darimi is an important collection of approximately 3,400 hadith compiled by Imam Abdullah ibn Abd ar-Rahman ad-Darimi, focusing on the Sunnah of the Prophet Muhammad (ﷺ), but it has yet to be translated into English.</li>
-
+            <li><strong>Bulugh al-Maram</strong> - A collection of Hadith primarily dealing with fiqh (Islamic jurisprudence), compiled by Ibn Hajar al-Asqalani.</li>
+            <li><strong>Mishkat al-Masabih</strong> - A well-known compilation that gathers various Hadith covering various topics, organized by al-Tabrizi.</li>
+            <li><strong>Shama'il Muhammadiyah</strong> - A work that describes the physical attributes and noble character of Prophet Muhammad (PBUH), compiled by Imam at-Tirmidhi.</li>
+            <li><strong>Nawawi 40</strong> - A collection of 40 Hadith compiled by Imam Nawawi, focusing on key principles of Islamic practice and ethics, commonly regarded as essential for understanding the faith.</li>
+            <li><strong>Qudsi 40</strong> - A compilation of 40 Hadith Qudsi, in which the Prophet (PBUH) conveys words attributed directly to Allah, focusing on divine guidance and the relationship between God and humanity.</li>
+            <li><strong>Shah Waliullah 40</strong> - A set of 40 Hadith compiled by Shah Waliullah, emphasizing Islamic teachings and ethical principles, with a focus on practical aspects of faith and spirituality.</li>
+            <li><strong>Sunan ad-Darimi</strong> - An important collection of approximately 3,400 hadith compiled by Imam ad-Darimi, focusing on the Sunnah of the Prophet (ﷺ), although not yet translated into English.</li>
           </ol>
           <p>
             With over 41,000 Hadith at your fingertips, this app is designed to enhance your understanding of Islam 
@@ -145,7 +165,10 @@ const HadithLearn = () => {
             the Hadith Search app provides a user-friendly interface to help you connect with the wisdom of the 
             Prophet (peace be upon him).
           </p>
+    
         </div>
+    
+      
       ) : (
         <>
           <div>
