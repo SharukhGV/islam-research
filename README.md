@@ -104,6 +104,13 @@ Please use with caution while testing and reviewing functionality.
 
 I sincerely hope this app benefits you. If there are any errors, please forgive me and notify me so corrections can be made. May Allah accept what is good and forgive what is mistaken.
 
+
+<img width="1920" height="1080" alt="islam research app" src="https://github.com/user-attachments/assets/e442509e-98c3-4ae2-8e34-793c3da78c49" />
+
+
+
+
+
 ---
 
 ## 📄 License
